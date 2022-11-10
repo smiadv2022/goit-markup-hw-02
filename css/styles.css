@@ -1,0 +1,133 @@
+
+:root{
+   --color-accent: #2196F3;
+   --color-primary:#212121;
+   --color-secondary:#757575;
+   --background-secondary:#2F303A;
+}
+body{
+   font-family: 'Roboto', sans-serif;
+   font-weight: 400;
+   font-size: 14px;
+   letter-spacing: 0.03em;
+}
+.link{
+    text-decoration: none;
+}
+.header-logo{  
+font-family: 'Raleway';
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+color: #000000;
+}
+.span-logo{
+    color: #2196F3;
+}
+.list{
+    list-style: none;
+}
+.header-list{
+font-weight: 500;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: var(--color-primary);
+}
+.header-list:focus, .header-list:hover{
+    color: var(--color-accent);
+}
+.header-contact{
+ font-weight: 500;
+line-height: 1.14;
+letter-spacing: 0.02em;
+
+color: var(--color-secondary);
+}
+.header-contact:focus, .header-contact:hover{
+   color: var(--color-accent); 
+}
+.hero{
+  font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+  color:#FFFFFF ;
+  background-color:var(--background-secondary);
+}
+.hero-btn{
+    font-weight: 700;
+font-size: 16px;
+line-height: 1.88;
+text-align: center;
+letter-spacing: 0.06em;
+color: #FFFFFF;
+   background: #188CE8;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px; 
+width: 216px;
+height: 50px;
+}
+.feature-title{
+  opacity: 0;  
+  font-size: 0
+}
+.feature-title-item{
+    font-weight: 700;
+line-height: 1.14;
+text-transform: uppercase;
+
+color: var(--color-primary)
+}
+.feature-text-item{
+line-height: 1.71px;
+color: var(--color-secondary)
+}
+.job-title{
+   font-weight: 700;
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
+color: var(--color-primary)
+}
+.tean{
+    background-color:#F5F4FA ;
+}
+.team-title{
+font-weight: 700;
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
+color: var(--color-primary);
+}
+.team-fio{
+  font-weight: 500;
+font-size: 16px;
+line-height: 1.88;
+color: var(--color-primary);
+}
+.team-text{
+font-size: 16px;
+line-height: 1.88;
+color: var(--color-secondary);
+}
+.footer{
+        background-color:var(--background-secondary);
+}
+.footer-logo{
+font-family: 'Raleway';
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+color: #FFFFFF;
+}
+.footer-adress{
+font-style: normal;
+line-height: 1.71;
+color: #FFFFFF;  
+}
+.footer-contact{
+line-height: 1.75;
+color: rgba(255, 255, 255, 0.6); 
+}
