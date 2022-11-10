@@ -58,14 +58,21 @@ line-height: 1.36;
 text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
+
   color: var(--color-secondary-accent) ;
   background-color:var(--background-secondary);
+}
+.hero-title{
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+letter-spacing: 0.06em;
+text-transform: uppercase;
 }
 .hero-btn{
     font-weight: 700;
 font-size: 16px;
 line-height: 1.88;
-text-align: center;
 letter-spacing: 0.06em;
 color: var(--color-secondary-accent);
    background: #188CE8;
@@ -73,6 +80,7 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px; 
 width: 216px;
 height: 50px;
+
 }
 .feature-title-hidden{
   opacity: 0;  
@@ -93,7 +101,6 @@ color: var(--color-secondary)
    font-weight: 700;
 font-size: 36px;
 line-height: 1.17;
-text-align: center;
 color: var(--color-primary)
 }
 .tean{
@@ -103,7 +110,6 @@ color: var(--color-primary)
 font-weight: 700;
 font-size: 36px;
 line-height: 1.17;
-text-align: center;
 color: var(--color-primary);
 }
 .team-fio{
@@ -140,7 +146,6 @@ color: rgba(255, 255, 255, 0.6);
 font-weight: 500;
 font-size: 16px;
 line-height: 1.62;
-text-align: center;
 color: var(--color-primary);
 background-color: #F5F4FA;
 border-radius: 4px;
