@@ -4,6 +4,7 @@
    --color-primary:#212121;
    --color-secondary:#757575;
    --background-secondary:#2F303A;
+   --color-secondary-accent:#FFFFFF;
 }
 body{
    font-family: 'Roboto', sans-serif;
@@ -36,6 +37,7 @@ color: var(--color-primary);
 .header-list:focus, .header-list:hover{
     color: var(--color-accent);
 }
+
 .header-contact{
  font-weight: 500;
 line-height: 1.14;
@@ -46,6 +48,9 @@ color: var(--color-secondary);
 .header-contact:focus, .header-contact:hover{
    color: var(--color-accent); 
 }
+.active-link{
+  color: var(--color-accent);
+}
 .hero{
   font-weight: 900;
 font-size: 44px;
@@ -53,7 +58,7 @@ line-height: 1.36;
 text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
-  color:#FFFFFF ;
+  color: var(--color-secondary-accent) ;
   background-color:var(--background-secondary);
 }
 .hero-btn{
@@ -62,14 +67,14 @@ font-size: 16px;
 line-height: 1.88;
 text-align: center;
 letter-spacing: 0.06em;
-color: #FFFFFF;
+color: var(--color-secondary-accent);
    background: #188CE8;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px; 
 width: 216px;
 height: 50px;
 }
-.feature-title{
+.feature-title-hidden{
   opacity: 0;  
   font-size: 0
 }
@@ -120,14 +125,40 @@ font-family: 'Raleway';
 font-weight: 700;
 font-size: 26px;
 line-height: 1.19;
-color: #FFFFFF;
+color: var(--color-secondary-accent);
 }
 .footer-adress{
 font-style: normal;
 line-height: 1.71;
-color: #FFFFFF;  
+color: var(--color-secondary-accent);  
 }
 .footer-contact{
 line-height: 1.75;
 color: rgba(255, 255, 255, 0.6); 
+}
+.menu-btn{
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+text-align: center;
+color: var(--color-primary);
+background-color: #F5F4FA;
+border-radius: 4px;
+border-color:#F5F4FA;
+}
+.menu-btn:hover,.menu-btn:focus {
+color: var(--color-secondary-accent);
+background-color:var(--color-accent);
+}
+.portfolio-item-filter{
+font-size: 16px;
+line-height: 1.88x;
+color: var(--color-secondary);
+}
+.portfolio-item-project{
+ font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+color: var(--color-primary); 
 }
