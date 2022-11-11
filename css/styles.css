@@ -133,7 +133,7 @@ line-height: 1.19;
 color: var(--color-secondary-accent);
 }
 .footer-adress{
-font-style: normal;
+font-style: normal; 
 line-height: 1.71;
 color: var(--color-secondary-accent);  
 }
